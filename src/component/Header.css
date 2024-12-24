@@ -1,0 +1,12 @@
+.Header {
+  border: 3px solid gray;
+  background-color: green;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.Header h4{
+  margin-bottom: 0px;
+  color: beige;
+  margin-left: 15px;
+}

@@ -1,0 +1,35 @@
+.Editor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: beige;
+    /* border: 1px solid red; */
+    padding-bottom: 30px;
+}
+
+.Editor input{
+  border: 3px dashed green;
+  padding: 7px;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 15px;
+}
+
+.Editor input:focus{
+  outline: none;
+  border: 3px solid green;
+  background-color: lightgreen;
+  font-size: 18px;
+}
+
+.Editor button{
+  cursor: pointer;
+  width: 70px;
+  padding: 7px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}

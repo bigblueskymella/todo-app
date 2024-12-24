@@ -1,0 +1,27 @@
+.List{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.List .searchbar{
+  margin-bottom: 20px ;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 15px;
+}
+
+/* 클릭했을 때! */
+.List .searchbar:focus{
+  outline: none;
+  border-bottom: 2px solid green;
+  font-size: 17px;
+}
+
+/* 아이템 만든 이후 */
+.List .list_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
